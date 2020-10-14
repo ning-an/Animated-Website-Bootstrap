@@ -83,7 +83,10 @@
         <p>
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam,
           corrupti doloremque cupiditate placeat labore ducimus maxime sunt id
-          fugiat molestias vol."
+          fugiat molestias vol Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Molestias sint quae, obcaecati eligendi perspiciatis
+          temporibus tempora fugiat, delectus dicta optio, mollitia illum
+          consequatur enim modi voluptate. Harum cupiditate libero id!"
         </p>
         <p class="customer">- John Doe</p>
       </div>
@@ -196,5 +199,44 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".navbar", {
+        duration: 2000,
+        origin: "buttom",
+      });
+      sr.reveal(".showcase-left", {
+        distance: "300px",
+        duration: 2000,
+        origin: "top",
+      });
+      sr.reveal(".showcase-right", {
+        distance: "300px",
+        duration: 2000,
+        origin: "right",
+      });
+      sr.reveal(".showcase-btn", {
+        distance: "300px",
+        origin: "bottom",
+        delay: 2000,
+      });
+      sr.reveal("#testmonial div", {
+        duration: 2000,
+        origin: "bottom",
+      });
+      sr.reveal(".info-left", {
+        duration: 2000,
+        origin: "left",
+        distance: "300px",
+        viewFactor: 0.2,
+      });
+      sr.reveal(".info-right", {
+        duration: 2000,
+        origin: "right",
+        distance: "300px",
+        viewFactor: 0.2,
+      });
+    </script>
   </body>
 </html>
